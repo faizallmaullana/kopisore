@@ -37,7 +37,7 @@
       </div>
 
       <div class="copyright">
-        <p><a href="https://www.github.com/faizallmaullana">&copy; 2024 | faizallmaullana</a></p>
+        <p style="font-size: 0.5em;"><a href="https://www.github.com/faizallmaullana">&copy;2024 | faizallmaullana</a></p>
       </div>
     </div>
   </footer>
