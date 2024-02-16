@@ -2,13 +2,6 @@
   <div id="about-us" class="about-us">
     <h1>About Kopi Sore</h1>
     <div class="content">
-      <!-- <div class="gallery">
-        @include('partials.home.gallery', ['imageUrl' => '/imgs/kopisore12.jpg'])
-        @include('partials.home.gallery', ['imageUrl' => '/imgs/kopi-sore4.jpg'])
-        @include('partials.home.gallery', ['imageUrl' => '/imgs/kopisore8.jpg'])
-        @include('partials.home.gallery', ['imageUrl' => '/imgs/kopisore21.jpg'])
-        @include('partials.home.gallery', ['imageUrl' => '/imgs/kopisore24.jpg'])
-      </div> -->
 
       <div class="gallery">
         <div v-for="(item, index) in galleryItems" :key="index" class="gallery-item">
@@ -17,10 +10,16 @@
       </div>
 
       <div class="info">
-        <p>Kopi Sore adalah <em>kode di atas</em>, setiap kali pengguna mengklik salah satu item menu di dalam
-          nav-menu,
-          nav-menu akan disembunyikan (display: none). Selain itu, kode yang telah Anda buat sebelumnya untuk
-          menyembunyikan nav-menu ketika pengguna mengklik di luar area nav-menu tetap berfungsi.</p>
+        <p><em>Kopi Sore</em> adalah nama yang membangkitkan nostalgia akan secangkir kopi hangat di sore hari. Kedai kopi
+          ini bukan sembarang tempat, melainkan sebuah produk UMKM yang didirikan pada tahun 2019 oleh Idam Kusdiana.
+          Berbekal semangat dan kecintaan terhadap kopi, Idam membangun Kopisore menjadi tempat nongkrong asyik bagi para
+          pecinta
+          kopi di Kawali. Kopisore menawarkan suasana yang sejuk dan nyaman, <em>jauh dari hiruk pikuk keramaian
+            kota</em>.
+          Terletak dekat dengan situs <em>Astana Gede</em>, Kopisore menjadi tempat yang ideal untuk bersantai setelah
+          mengunjungi
+          situs bersejarah tersebut. Pengunjung dapat menikmati kopi sambil menjelajahi sejarah dan budaya di
+          Astana Gede.</p>
       </div>
     </div>
 
@@ -40,11 +39,8 @@
       </div>
 
       <div class="desc">
-        <p>Kopi Sore adalah <em>kode di atas</em>, setiap kali pengguna mengklik salah satu item menu di dalam
-          nav-menu,
-          nav-menu akan disembunyikan (display: none). Selain itu, kode yang telah Anda buat sebelumnya untuk
-          menyembunyikan nav-menu ketika pengguna mengklik di luar area nav-menu tetap berfungsi.</p>
-
+        <p>Rasakan pengalaman <em>ngopi sore-sore</em> yang tak terlupakan. Nikmati kopi istimewa, suasana sejuk, dan keramahan
+          komunitas Kopisore.</p>
       </div>
     </div>
   </div>
@@ -212,6 +208,14 @@ export default {
   max-width: 726px;
   text-align: center;
 }
+
+.about-us em {
+  color: var(--color-yellow);
+  background-color: rgb(38, 42, 43);
+  padding: 0 1em;
+  font-weight: 700;
+  font-style: normal;
+}
 </style>
 
 <style>
@@ -312,12 +316,6 @@ export default {
     text-align: center;
   }
 
-  .about-us em {
-    color: var(--color-brown);
-    font-weight: 500;
-    font-style: normal;
-  }
-
   .about-us .gallery-item {
     width: 80vw;
   }
@@ -366,7 +364,7 @@ export default {
     height: 460px;
   }
 
-  .about-us .desc p{
+  .about-us .desc p {
     transform: translateY(-28px);
   }
 
