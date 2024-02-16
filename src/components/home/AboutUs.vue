@@ -14,7 +14,9 @@
           ini bukan sembarang tempat, melainkan sebuah produk UMKM yang didirikan pada tahun 2019 oleh Idam Kusdiana.
           Berbekal semangat dan kecintaan terhadap kopi, Idam membangun Kopisore menjadi tempat nongkrong asyik bagi para
           pecinta
-          kopi di Kawali. Kopisore menawarkan suasana yang sejuk dan nyaman, <em>jauh dari hiruk pikuk keramaian
+          kopi di Kawali.</p>
+
+        <p>Kopisore menawarkan suasana yang sejuk dan nyaman, <em>jauh dari hiruk pikuk keramaian
             kota</em>.
           Terletak dekat dengan situs <em>Astana Gede</em>, Kopisore menjadi tempat yang ideal untuk bersantai setelah
           mengunjungi
@@ -39,7 +41,8 @@
       </div>
 
       <div class="desc">
-        <p>Rasakan pengalaman <em>ngopi sore-sore</em> yang tak terlupakan. Nikmati kopi istimewa, suasana sejuk, dan keramahan
+        <p>Rasakan pengalaman <em>ngopi sore-sore</em> yang tak terlupakan. Nikmati kopi istimewa, suasana sejuk, dan
+          keramahan
           komunitas Kopisore.</p>
       </div>
     </div>
